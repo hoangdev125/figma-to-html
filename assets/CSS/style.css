@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-style: 62.5%;
+}
+/* Khôi phục lại cỡ chữ 16px theo rem */
+body{
+    font-style: 1.6rem;
+}
