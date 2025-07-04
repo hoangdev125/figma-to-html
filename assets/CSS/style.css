@@ -33,7 +33,7 @@ a {
   background: #171100;
 }
 
-.btn:hover{
+.btn:hover {
   opacity: 0.9;
 }
 
@@ -215,7 +215,7 @@ a {
 .hero .watch-video {
   margin-left: 28px;
   border: none;
-  background-color: transparent;
+  background: transparent;
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -244,7 +244,7 @@ a {
   margin-top: 48px;
 }
 
-.hero .stats{
+.hero .stats {
   margin-top: 8px;
 }
 
