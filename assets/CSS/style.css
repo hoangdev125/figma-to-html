@@ -20,6 +20,15 @@ a {
   text-decoration: none;
 }
 
+.heading-lv2 {
+  color: #171100;
+  font-family: var(--font-heading);
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: 1.26; /* 126.316% */
+  letter-spacing: -0.76px;
+}
+
 .btn {
   display: inline-block;
   padding: 0 16px;
@@ -259,4 +268,46 @@ a {
 
 .hero .stats strong:nth-child(2) {
   margin-left: 28px;
+}
+
+/* Popular */
+.popular {
+  padding: 65px 0;
+  margin-top: 135px;
+}
+
+.popular-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.popular-top .desc {
+  color: #5f5b53;
+  font-size: 1.8rem;
+  line-height: 1.67; /* 166.667% */
+  width: 458px;
+  margin-top: 16px;
+}
+
+.controls{
+  display: flex;
+  gap: 18px;
+}
+
+.popular-top .control-btn {
+  background: transparent;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  display: flex;justify-content: center;
+  align-items: center;
+}
+
+.popular-top .control-btn:hover{
+  background-color: var(--primary-color);
+  color: white;
+  cursor: pointer;
 }
