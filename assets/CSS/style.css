@@ -75,6 +75,7 @@ a {
 .nav li.active a::after {
   position: absolute;
   left: 21px;
+  bottom: 6px;
   display: block;
   content: "";
   width: 12px;
