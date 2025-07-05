@@ -56,15 +56,17 @@ a {
 
 .line-clamp {
   display: -webkit-box;
+  line-clamp: var(--line-clamp, 1);
   -webkit-line-clamp: var(--line-clamp, 1);
   -webkit-box-orient: vertical;
   overflow: hidden;
+  text-overflow: ellipsis; /*tự thêm */
 }
 .line-clamp.line-2 {
   --line-clamp: 2;
 }
 
-.break-all{
+.break-all {
   word-break: break-all;
 }
 /* HEADER */
